@@ -14,7 +14,8 @@ async def run():
             result = await session.list_tools()
             print(result)
 
-            result = await session.call_tool(name="sina_weibo_hot_topic", arguments={"top": 5, "type": "all"})
+            # result = await session.call_tool(name="sina_weibo_hot_topic", arguments={"top": 5, "type": "all"})
+            result = await session.call_tool(name="zhihu_hot_topic", arguments={"top": 5, "type": "all"})
             print(result)
 
 

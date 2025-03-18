@@ -4,7 +4,7 @@
 
 - [x] 新浪热搜
 
-- [ ] 知乎热搜
+- [x] 知乎热搜
 ...
 
 API参考项目：https://github.com/imsyy/DailyHotApi

@@ -22,6 +22,20 @@ TOOLS = [
                 }
             }
         }
+    ),
+    types.Tool(
+        name="zhihu_hot_topic",
+        description="这是一个用来获取知乎热搜的工具",
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "top": {
+                    "type": "integer",
+                    "description": "热搜的数量",
+                    "default": 10
+                }
+            }
+        }
     )
 ]
 TOOLS_NAME_LIST = {tool.name: tool for tool in TOOLS}
